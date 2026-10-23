@@ -11,7 +11,7 @@ Extração de regras de negócio de um ERP legado descontinuado (SGI) para recon
 - Nunca grave credenciais nem dados sensíveis (senhas, tokens, dados pessoais ou de negócio reais do dump) em documentação, código ou artefatos versionados. Use amostras mascaradas. Segredos ficam em arquivos de configuração não versionados; só a estrutura (`.sample`) é versionada.
 - Leia a conexão do banco apenas do `.env` na raiz; nunca copie seus valores para outro arquivo, log ou resposta.
 - O banco é só para análise (consultas de leitura). Pergunte a Eduardo antes de criar, alterar ou apagar qualquer objeto ou dado nele; se for necessário, ele pode ser restaurado do dump em `../dumps/prod-20230619.dmp.gz`.
-- Não consulte outras fontes de regra além do código e do banco. Dúvida de negócio vai para Eduardo, não é suposta.
+- A regra do legado vem só do código e do banco (não há Wiki, Jira etc.). Pesquisa externa é permitida como enriquecimento, marcada como tal e com a fonte citada. Dúvida de negócio vai para Eduardo, não é suposta.
 - Não defina escopo de MVP antes de o catálogo de regras estar validado (marco M5b do roadmap).
 
 ## Where things are

@@ -73,7 +73,7 @@ Observação: `nota.data_criacao` só vai de 2010-05 a 2011-04, enquanto `nota_f
 
 ## Pendências desta passada
 
-1. Cruzar as 142 telas com o uso real, por tabela (lote de validação já aparece como morto).
+1. ~~Cruzar as 142 telas com o uso real, por tabela~~ — feito em rascunho: ver `compras-telas-x-uso.md` (itens "a medir" no §5 daquele documento).
 2. Classificar os 23 relatórios.
 3. Confirmar o escopo de `PagamentoScheduleProcessor` e dos jobs do `sgi.nv`.
 4. Dicionário de dados de Compras (FKs, colunas), em `dicionario-de-dados/compras.md`.
