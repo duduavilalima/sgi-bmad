@@ -1,0 +1,10 @@
+# Segredos: versione apenas a estrutura (.env.sample)
+.env
+.env.*
+!.env.sample
+
+# Dumps do banco (dados reais, LGPD)
+*.dmp
+*.dmp.gz
+*.dump
+*.sql.gz
